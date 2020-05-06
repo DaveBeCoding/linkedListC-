@@ -17,9 +17,6 @@ class Link{
 private: //only available to funct
 
 public: // funct
-
-// void hello();
-
 Link();
 void addNode(int addData);
 void DelNode(int delData);

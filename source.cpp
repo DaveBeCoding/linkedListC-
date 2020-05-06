@@ -2,11 +2,6 @@
 using namespace std;
 #include "header.h"
 
-// void Link::hello()
-// {
-//     cout << "hello world" << endl;
-// }
-
 Link::Link(){
     head = nullptr;
     curr = nullptr;
@@ -62,4 +57,4 @@ void Link::PrintNodes(){
         cout << curr->data << endl;
         curr = curr->next;
     }
-}
+}//end PrintNode
