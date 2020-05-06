@@ -45,6 +45,12 @@ void Link::DelNode(int deldata){
         delPtr = curr;
         curr = curr->next;
         temp->next = curr;
+        if (delPtr == head)
+        {
+            head = head->next;
+            temp = nullptr;
+        }
+        
         delete delPtr;
         cout << "Value " << deldata << " was deleted\n";
     }
